@@ -6,7 +6,13 @@ public class ModulusChallenges
 		public static void main(String[] args)
 			{
 				challenge1();
+				challenge2();
 
+			}
+
+		private static void challenge2()
+			{
+				
 			}
 
 		private static void challenge1()
