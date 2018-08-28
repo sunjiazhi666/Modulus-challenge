@@ -6,14 +6,11 @@ public class ModulusChallenges
 		public static void main(String[] args)
 			{
 				challenge1();
-				challenge2();
+				challege2();
 
 			}
 
-		private static void challenge2()
-			{
-				
-			}
+		
 
 		private static void challenge1()
 			{
@@ -41,4 +38,37 @@ public class ModulusChallenges
 				}
 			}
 	}
+		private static void challege2()
+			{
+				
+				
+				
+						for (int number = 1; number < 100; number ++ ){
+							
+							
+							if (number % 5 == 0 && number % 3 == 0){
+								System.out.println("FizzBuzz");
+							}
+														
+							else if (number % 5 == 0){
+								System.out.println("Buzz");
+							}
+							
+							else if (number % 3 == 0){
+								System.out.println("Fizz");
+							}
+							
+							
+							
+							else{
+								System.out.println(number);
+							}
+							
+						
+							
+							
+				
+			}
+		
+			}
 	}
