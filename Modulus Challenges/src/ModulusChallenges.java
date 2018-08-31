@@ -15,7 +15,7 @@ public class ModulusChallenges
 		private static void challenge1()
 			{
 				
-				while (true){
+				
 				System.out.println("Pick a year and see is that a leap year or not");
 				Scanner userInput = new Scanner(System.in);
 				int year = userInput.nextInt();
@@ -34,7 +34,7 @@ public class ModulusChallenges
 					}
 					else{
 						System.out.println("This is not a leap year");
-					}
+					
 				}
 			}
 	}
